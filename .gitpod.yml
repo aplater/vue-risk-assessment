@@ -4,7 +4,7 @@ tasks:
 
 ports:
   - port: 1234
-    onOpen: open-browser
+    onOpen : open-preview
   - port: 44235
 
 vscode:
