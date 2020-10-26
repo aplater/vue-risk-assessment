@@ -4,7 +4,7 @@
   "description": "A Risk Assessment questionnaire built with Vue and using Google Sheets for the backend.",
   "main": "src/index.html",
   "scripts": {
-    "start": "npx parcel src/index.html"
+    "start": "npx parcel src/index.html --hmr-port 44235"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,25 @@
   },
   "homepage": "https://github.com/owlwatch/vue-risk-assessment#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "pug": "^3.0.0",
+    "sass": "^1.27.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
+    "debounce": "^1.2.0",
+    "html-to-pdfmake": "^2.1.0",
+    "markdown": "^0.5.0",
+    "pdfmake": "^0.1.68",
+    "sharer": "^1.4.0",
+    "sticky-events": "^3.4.10",
+    "vue": "^2.6.12",
+    "vue-chartjs": "^3.5.1",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-smooth-reflow": "^0.1.12"
   }
 }

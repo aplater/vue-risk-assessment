@@ -103,7 +103,7 @@ export default {
 
 <!-- SCSS Style -->
 <style lang="scss">
-@import '/scss/_vue-base.scss';
+@import '/scss/base.scss';
 .Introduction {
   @include media-breakpoint-up( lg ){
     display: flex;

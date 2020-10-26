@@ -83,7 +83,7 @@ export default {
 
 <!-- SCSS Style -->
 <style lang="scss">
-@import '/scss/_vue-base';
+@import '../scss/base';
 .QuizHeader {
   position: sticky;
   z-index: 2;

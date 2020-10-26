@@ -406,10 +406,7 @@ export default {
 
 <!-- SCSS Style -->
 <style lang="scss" scoped>
-@import '../../../scss/_variables';
-@import '~bootstrap/scss/_functions';
-@import '~bootstrap/scss/_variables';
-@import '~bootstrap/scss/_mixins';
+@import '../scss/base';
 .Results {
   
   &__PartnerLogo {

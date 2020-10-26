@@ -295,10 +295,7 @@ export default {
 
 <!-- SCSS Style -->
 <style lang="scss">
-@import '../../../scss/_variables';
-@import '~bootstrap/scss/_functions';
-@import '~bootstrap/scss/_variables';
-@import '~bootstrap/scss/_mixins';
+@import '../scss/base';
 .MaturityAssessment {
   // background: $gray-200;
   position: relative;

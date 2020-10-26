@@ -159,7 +159,7 @@ export default {
 
 <!-- SCSS Style -->
 <style lang="scss">
-@import '/scss/_vue-base';
+@import '/scss/base';
 .Recommendations{
   &__Nav {
     margin-top: 2rem;
