@@ -1,0 +1,22 @@
+{
+  "name": "vue-risk-assessment",
+  "version": "1.0.0",
+  "description": "A Risk Assessment questionnaire built with Vue and using Google Sheets for the backend.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owlwatch/vue-risk-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owlwatch/vue-risk-assessment/issues"
+  },
+  "homepage": "https://github.com/owlwatch/vue-risk-assessment#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
