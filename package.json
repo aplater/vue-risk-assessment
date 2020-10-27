@@ -4,7 +4,8 @@
   "description": "A Risk Assessment questionnaire built with Vue and using Google Sheets for the backend.",
   "main": "src/index.html",
   "scripts": {
-    "start": "npx parcel src/index.html --hmr-port 44235"
+    "start": "HMR_PROXY_URL=https://3000-abd556f0-4c73-4fd0-8c11-0a1805761983.ws-us02.gitpod.io npx parcel src/index.html --hmr-port 3000",
+    "build": "npx parcel build src/index.html"
   },
   "repository": {
     "type": "git",
