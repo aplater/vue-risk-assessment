@@ -104,6 +104,9 @@ export default {
   list-style: none;
   display: flex;
   align-items: center;
+  h4 {
+      margin-bottom: 0;
+  }
   a {
     display: flex;
     align-items: center;

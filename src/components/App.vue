@@ -114,7 +114,7 @@ export default {
       industryDropdown: [],
       sizeDropdown : [],
       recommendations: {},
-      pdfUrl: (window.location.pathname.replace(/\/$/,''))+'/report-pdf/'
+      pdfUrl: 'https://observeit.com/insider-threat-risk-assessment/report-pdf/'
     }
   },
 

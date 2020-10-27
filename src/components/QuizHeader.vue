@@ -113,6 +113,7 @@ export default {
     display: flex;
     margin-left: -1em;
     margin-right: -1em;
+    margin-bottom: 0;
     
   }
   &__Title {
@@ -121,6 +122,7 @@ export default {
     }
     h4 {
       color: $blue;
+      margin-bottom: 0;
     }
   }
 }
