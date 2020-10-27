@@ -6,6 +6,7 @@ ports:
   - port: 1234
     onOpen : open-preview
   - port: 44235
+    onOpen : ignore
 
 vscode:
   extensions:
