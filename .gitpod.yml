@@ -1,5 +1,7 @@
 tasks:
-  - init: npm install
+  - init: >
+      npm install &&
+      node ./gitpod-parcel-hmr-patch.js
   - command : npm start
 
 ports:
