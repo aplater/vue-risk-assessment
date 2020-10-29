@@ -14,8 +14,8 @@ from your theme as necessary.
 
 ### Dependencies
 For this repo, the `index.html` file includes some base styles from the ObserveIT site as well as some other
-assets that are assumed dependencies. These include jQuery and Marketo. jQuery is not necessary, but if it is
-already included on the new site, that may save some time going through the code.
+assets that are assumed dependencies. These include jQuery and Marketo. jQuery can probably be dropped, but
+you would need to go through and replace some of the jQuery shortcut code.
 
 ### Marketo
 When the user reaches the results screen, a form is presented that is currently provided by Marketo. The
