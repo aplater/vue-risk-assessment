@@ -368,15 +368,15 @@ export default {
           $(this).appendTo( $(this).parent() );
         });
 
-        $form.find('[name="iTMAssessmentIndustry"]').on('change', e => {
+        this.user.industry = $form.find('[name="iTMAssessmentIndustry"]').on('change', e => {
           this.user.industry = $(e.target).val();
-        });
-        $form.find('[name="iTMAssessmentOrgSize"]').on('change', e => {
+        }).val();
+        this.user.size = $form.find('[name="iTMAssessmentOrgSize"]').on('change', e => {
           this.user.size = $(e.target).val();
-        });
-        $form.find('[name="Company"]').on('change', e => {
+        }).val();
+        this.user.company = $form.find('[name="Company"]').on('change', e => {
           this.user.company = $(e.target).val();
-        });
+        }).val();
         $form.find('.mktoButton').addClass('btn btn-primary btn-lg');
         $form.find('.mktoButtonWrap').attr('style','');
 
