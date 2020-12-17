@@ -179,6 +179,7 @@ export default {
   },
   "font_base": "https://www.observeit.com/wp-content/themes/observeit-proofpoint/resources/assets/fonts",
   "nonce": "e82b68d5b2",
+  "clientDownload": true,
   "is_preview": false,
   "index": 0
 };

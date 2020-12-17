@@ -5,6 +5,7 @@
     target="_blank"
     :action="pdfUrl"
     method="POST"
+    @submit="onSubmit"
   )
     input(
       name="nonce"
@@ -125,6 +126,9 @@ export default {
     },
     config : {
       type: Object
+    },
+    user : {
+      type : Object
     }
   },
 
@@ -134,6 +138,7 @@ export default {
       pdfHeaderImageData : null,
       iframeSrc : 'javascript:;',
       docBase64 : '',
+      pdfDoc: null,
       images: {},
       ready : false,
       radarOptions : {
@@ -261,10 +266,17 @@ export default {
   },
 
   methods: {
+    onSubmit(e){
+      if( !this.config.clientDownload ){
+        return;
+      }
+      e.preventDefault();
+      this.pdfDoc.download( this.user.company + ' - Risk Assessment.pdf' );
+    },
     async update(){
-      const pdfDoc = await this.getPdfDoc();
-      pdfDoc.getBase64( base64 => this.docBase64 = base64 );
-      pdfDoc.getDataUrl( url => this.iframeSrc = url );
+      this.pdfDoc = await this.getPdfDoc();
+      this.pdfDoc.getBase64( base64 => this.docBase64 = base64 );
+      this.pdfDoc.getDataUrl( url => this.iframeSrc = url );
     },
     onChartImage( image ){
       this.radarImage = image;

@@ -61,6 +61,7 @@
                 :chartData="chartData"
                 :pdfUrl="companyPdfUrl"
                 :config="config"
+                :user="user"
                 @download="onDownload"
               )
 
