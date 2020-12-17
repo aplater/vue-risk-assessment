@@ -31,3 +31,8 @@ the privacy needs to be publically visible. The sheet currently used on ObserveI
 The configuration was provided to the vue component through the Wordpress system, so it had more information than
 was necessary for functionality. I did my best to cut out unecessary properties in this example, but you still
 may want to reorganize according to your needs.
+
+See [config.js](src/config.js).
+
+Plase note that clientDownload was added as an configuration option (boolean). If you set it to true,
+you do not need to set up a separate endpoint to handle the PDF download.
